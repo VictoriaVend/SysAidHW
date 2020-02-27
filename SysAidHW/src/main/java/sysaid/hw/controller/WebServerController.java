@@ -44,7 +44,7 @@ public class WebServerController {
 		for (int i = 0; i < list.size(); i++) {
 			String link = list.get(i);
 			String title = getResponsByUrl(link).title();
-			System.err.println(link + " -> " + title);
+
 			addTitle(link, title);
 
 		}
